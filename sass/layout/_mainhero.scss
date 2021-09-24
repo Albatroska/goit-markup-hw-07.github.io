@@ -8,9 +8,10 @@
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
-    background:linear-gradient(to right rgb(0,0,0,0.3),rgb(0,0,0,0.3)), url("../images/imghero.jpg");
+    background: linear-gradient(to right, rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../images/imghero.jpg");
     background-position: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat; 
+    background-size: cover;   
 }
 
 .section .main-title{
@@ -37,9 +38,7 @@
 
 .backdrop{
     position: fixed;
-  
     z-index: 2;
-
     top: 0;
     left: 0;
     height: 100%;
