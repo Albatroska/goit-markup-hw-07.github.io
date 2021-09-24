@@ -4,30 +4,29 @@
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
-
-}
-.imgsection{
-    padding-top: 95px;
-    padding-bottom: 95px;
-}
-.second-title{
     color: var(--title-black-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
-    
+
 }
+.imgsection{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
 .name{
     padding-bottom: 10px;
     text-align: center;
+    .page-name{
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.18;
+    }
 }
-.page-name{
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.18;
-}
+
 .section-description{
     font-weight: 400;
     font-size: 14px;

@@ -16,10 +16,9 @@
 }
 .servies-li{
     width: 270px;
-    
+    &:not(:last-child){
+        margin-right: 30px;
+        
+    } 
 }
 
-.servies-li:not(:last-child){
-    margin-right: 30px;
-    
-}
