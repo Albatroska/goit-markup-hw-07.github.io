@@ -456,13 +456,19 @@ body img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.second-title {
+.title__second-title {
   color: var(--title-black-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.title__section-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .servies__icon-image {
