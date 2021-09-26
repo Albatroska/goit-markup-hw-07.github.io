@@ -199,37 +199,36 @@
       
    }
    
-   .checkbox__inform{
+   .inform{
        display: flex;
        align-items: center;
        position: relative;
        margin-bottom: 30px;
        padding-left: 23px;
-     
-       a {
-        color: var(--link-blue-color);
-        font-size: 14px;
-        align-items: center;
-     
- 
-    }
    }
-    
-  
-       .checkbox__input{
+   .checkbox__link{
+    color: var(--link-blue-color);
+    font-size: 14px;
+    align-items: center;
+ 
+
+}
+.checkbox__label{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+ }
+
+ .checkbox__input{
            position: absolute;
            -moz-apperance:none;
            -webkit-appearance: none;
            appearance: none;
-              .checkbox-label{
-               display: flex;
-               flex-direction: row;
-               justify-content: start;
-               align-items: center;
-               font-size: 14px;
-               line-height: 24px;
-               letter-spacing: 0.03em;
-        }
+              
         &::before{
             content: ' ' ;
             display: block;
