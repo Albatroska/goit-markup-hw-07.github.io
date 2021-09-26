@@ -98,9 +98,11 @@
    
     padding-top: 16px;
     margin: 0;
-         &:not(:last-child){
-             margin-right: 10px;
-    }
+         
+
+}
+.footer-links__icon-teamfooter:not(:last-child){
+    margin-right: 10px;
 }
 
 
