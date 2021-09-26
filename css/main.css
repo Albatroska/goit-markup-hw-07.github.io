@@ -456,8 +456,13 @@ body img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title-second {
-  display: flex;
+.second-title {
+  color: var(--title-black-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .servies__icon-image {
