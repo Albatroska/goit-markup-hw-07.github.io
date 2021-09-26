@@ -199,7 +199,7 @@
       
    }
    
-   .checkbox__inform{
+   .inform{
        display: flex;
        align-items: center;
        position: relative;
@@ -216,7 +216,7 @@
    }
     
   
-       .checkbox__input{
+       .checkbox-input{
            position: absolute;
            -moz-apperance:none;
            -webkit-appearance: none;
@@ -243,7 +243,7 @@
 
    
 
-   .checkbox__input + .checkbox__label::before{
+   .checkbox-input + .checkbox-label::before{
        background: var(--link-blue-color);
        background-image: url(../images/ckeckbox.svg);
        background-repeat: no-repeat;
@@ -254,7 +254,7 @@
    }
 
 
-   .checkbox__form-btn{
+   .form-btn{
        width: 200px;
        height: 50px;
        margin-left: auto;
