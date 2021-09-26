@@ -456,7 +456,7 @@ body img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title__second {
+.title-second {
   display: flex;
 }
 
@@ -493,7 +493,6 @@ body img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
@@ -632,7 +631,6 @@ body img {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0,3em;
-  text-transform: uppercase;
   color: black;
 }
 
