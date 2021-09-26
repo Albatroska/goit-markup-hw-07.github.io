@@ -703,6 +703,12 @@ body img {
 }
 
 /*соцсети*/
+.footer-links__icon-contacts {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
 .footer-links__iconfooter {
   display: flex;
   flex-direction: column;
@@ -722,7 +728,7 @@ body img {
   margin-right: 10px;
 }
 
-.icon-teamfooter-link {
+.footer-links__icon-teamfooter-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -739,12 +745,12 @@ body img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-teamfooter-link:hover, .icon-teamfooter-link:focus {
+.footer-links__icon-teamfooter-link:hover, .footer-links__icon-teamfooter-link:focus {
   fill: #FFFFFF;
   background-color: var(--link-blue-color);
 }
 
-.icon-contacts {
+.footer-links__icon-contacts {
   display: flex;
   list-style: none;
   align-items: center;
@@ -753,7 +759,7 @@ body img {
   margin: 0;
 }
 
-.icon-contacts .icon-teamfoter:not(:last-child) {
+.footer-links__icon-contacts:not(:last-child) {
   margin-right: 10px;
 }
 
