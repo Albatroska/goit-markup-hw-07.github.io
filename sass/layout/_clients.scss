@@ -6,13 +6,13 @@
         line-height: 1.17;
         letter-spacing: 0,3em;
     }
-    .client-section{
+    .client__section{
         display: flex;
         justify-content: center;
         flex-direction: row;
        
     }
-    .client-list{
+    .client__list{
         list-style-type: none;
         &:not(:last-child){
             margin-right: 30px;
@@ -21,7 +21,7 @@
     
 }
 
-.client-icon-button{
+.client__icon-button{
     margin: 0;
     padding: 0;
     width: 170px;

@@ -12,7 +12,7 @@
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;   
-    .main-title{
+    .main__title{
         color: var(--title-white-color) ;
         font-weight: 900;
         font-size: 44px;
@@ -21,7 +21,7 @@
         text-transform: uppercase;
         margin-top: 0;
     }
-    .button{
+    .main__button{
         color: var(--title-white-color) ;
         background-color: var(--link-blue-color);
         font-weight: 700;
@@ -86,7 +86,7 @@
     
     
     }
-    .btn-modal-close{
+    .modal__btn-modal-close{
         position: absolute;
         top: 8px;
         right: 8px;
@@ -130,16 +130,16 @@
         color: #212121;
         margin-bottom: 12px;
     }
-    .form-info{
+    .form__info{
         list-style: none;
     }
-    .form-contact{
+    .form__contact{
         position: relative;
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
     }
-    .label-form{
+    .form__label-form{
         margin-right: 463px;
         text-align: start;
         font-weight: 400;
@@ -153,7 +153,7 @@
    
 
 
-   .input-form{
+   .form__input-form{
        height: 40px;
        padding-left: 42px;
        box-sizing: border-box;
@@ -166,7 +166,7 @@
        border-color:  var(--link-blue-color);
    }
    }
-   .icon-form{
+   .form__icon-form{
        position: absolute;
        top: 30%;
        left: 15px;
@@ -175,12 +175,12 @@
        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
    
-   .input-form:focus + .icon-form,
-   .input-form:active + .icon-form{
+   .form__input-form:focus + .icon-form,
+   .form__input-form:active + .icon-form{
        fill: var(--link-blue-color);
    }
 
-   .textarea{
+   .form__textarea{
        resize: none;
        font-size: 14px;
        line-height: 16px;
@@ -201,7 +201,7 @@
       
    }
    
-   .checkbox-inform{
+   .checkbox__inform{
        display: flex;
        align-items: center;
        position: relative;
@@ -218,7 +218,7 @@
    }
     
   
-       .checkbox{
+       .checkbox__input{
            position: absolute;
            -moz-apperance:none;
            -webkit-appearance: none;
@@ -245,7 +245,7 @@
 
    
 
-   .checkbox:checked + .checkbox-label::before{
+   .checkbox__input + .checkbox__label::before{
        background: var(--link-blue-color);
        background-image: url(../images/ckeckbox.svg);
        background-repeat: no-repeat;

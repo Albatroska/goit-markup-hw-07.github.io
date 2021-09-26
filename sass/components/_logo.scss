@@ -27,13 +27,13 @@
 }
 
 
-.footerlistlogo{
+.footer__listlogo{
     display: flex; 
    
 }
     
 .footer{ 
-    .logo{
+    .footer__logo{
     color: var(--title-white-color);
     font-family: Raleway;
     font-size: 26px;
@@ -45,7 +45,7 @@
        
     }
 }
-.span-logo{
+.footer__span-logo{
     color: var(--link-blue-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover{

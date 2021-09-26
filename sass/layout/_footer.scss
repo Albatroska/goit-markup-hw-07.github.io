@@ -6,7 +6,7 @@
 
 }
 
-.address {
+.footer__address {
     text-decoration: none;
     color: var(--title-white-color);
     font-size: 14px;
@@ -30,7 +30,7 @@
 }
 
 
-.contact-navfooter{
+.contact__navfooter{
     display: block;
     flex-direction: column;
     margin-top: 0px;
@@ -42,14 +42,14 @@
     margin-bottom: 9px;
 }
 /*соцсети*/
-.iconfooter{
+.footer-links__iconfooter{
   display: flex;
  flex-direction: column;
  margin-left: 80px;
 
 
 }
-.title-footer{
+.footer-links__title-footer{
     font-size: 14px;
     line-height: 1,72;
     letter-spacing: 0,03em;
