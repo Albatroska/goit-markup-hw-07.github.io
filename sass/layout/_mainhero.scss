@@ -206,14 +206,14 @@
        margin-bottom: 30px;
        padding-left: 23px;
    }
-   .checkbox__link{
+   .checkbox-link{
     color: var(--link-blue-color);
     font-size: 14px;
     align-items: center;
  
 
 }
-.checkbox__label{
+.checkbox-label{
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -223,7 +223,7 @@
     letter-spacing: 0.03em;
  }
 
- .checkbox__input{
+ .checkbox{
            position: absolute;
            -moz-apperance:none;
            -webkit-appearance: none;
@@ -242,7 +242,7 @@
 
    
 
-   .checkbox__input + .checkbox__label::before{
+   .checkbox-input + .checkbox-label::before{
        background: var(--link-blue-color);
        background-image: url(../images/ckeckbox.svg);
        background-repeat: no-repeat;
