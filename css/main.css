@@ -387,7 +387,7 @@ body img {
   color: var(--title-black-color);
 }
 
-.inform {
+.checkbox-inform {
   display: flex;
   align-items: center;
   position: relative;
@@ -395,10 +395,17 @@ body img {
   padding-left: 23px;
 }
 
-.checkbox-link {
+.checkbox-inform a {
   color: var(--link-blue-color);
   font-size: 14px;
   align-items: center;
+}
+
+.checkbox {
+  position: absolute;
+  -moz-apperance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .checkbox-label {
@@ -411,14 +418,7 @@ body img {
   letter-spacing: 0.03em;
 }
 
-.checkbox-input {
-  position: absolute;
-  -moz-apperance: none;
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-.checkbox-input::before {
+.checkbox-label::before {
   content: ' ';
   display: block;
   width: 16px;
@@ -428,7 +428,7 @@ body img {
   margin-right: 5px;
 }
 
-.checkbox-input + .checkbox-label::before {
+.checkbox:checked + .checkbox-label::before {
   background: var(--link-blue-color);
   background-image: url(../images/ckeckbox.svg);
   background-repeat: no-repeat;
